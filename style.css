@@ -34,16 +34,18 @@ body {
 
 .images {
     width: 80rem;
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     margin: 0 auto 5rem auto;
     grid-gap: 3.5rem;
     /* max-height: 400vh; */
-    overflow: hidden
+    overflow: hidden;
 }
 
 .images__image {
+    width: 100%;
     text-align: center;
     visibility: hidden;
     opacity: 0;
